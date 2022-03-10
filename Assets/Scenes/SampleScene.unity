@@ -416,6 +416,7 @@ GameObject:
   - component: {fileID: 1124568362}
   - component: {fileID: 1124568365}
   - component: {fileID: 1124568364}
+  - component: {fileID: 1124568366}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -501,6 +502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageData: {fileID: 11400000, guid: a1908240adb03b44d90aaeaa70819e64, type: 2}
+  keyCodeAttack: 32
 --- !u!114 &1124568365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -515,3 +517,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   moveDirection: {x: 0, y: 0, z: 0}
+--- !u!114 &1124568366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124568361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea3ce1da66d83f144a973dccc9bce450, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 4225980907263102906, guid: e7d8de126084c064e80fd9f740bf0264, type: 3}
+  attackRate: 0.1
